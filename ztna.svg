@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 530" width="1500" height="530">
+  <style>
+    text { font-family: "JetBrains Mono", "Menlo", "Monaco", "Consolas", monospace; }
+  </style>
+  <defs>
+    <marker id="arr-red" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polyline points="0 0,9 4,0 8" fill="none" stroke="#fb7185" stroke-width="1.5"/>
+    </marker>
+    <marker id="arr-green" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polyline points="0 0,9 4,0 8" fill="none" stroke="#34d399" stroke-width="1.5"/>
+    </marker>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#0f172a" stroke-width="0.8"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="#020617"/>
+  <rect width="100%" height="100%" fill="url(#grid)"/>
+  <rect x="0" y="0" width="250" height="480" fill="rgba(127,29,29,0.07)"/>
+  <text x="22" y="24" fill="#fb7185" font-size="15" font-weight="600">互联网</text>
+  <rect x="380" y="18" width="1100" height="460" rx="14" fill="rgba(120,53,15,0.03)" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="398" y="37" fill="#fbbf24" font-size="15" font-weight="600">企业内网</text>
+  <rect x="400" y="48" width="248" height="366" rx="10" fill="rgba(8,51,68,0.2)" stroke="#22d3ee" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="418" y="66" fill="#22d3ee" font-size="14" font-weight="600">员工办公网</text>
+  <rect x="738" y="48" width="722" height="340" rx="10" fill="rgba(6,78,59,0.15)" stroke="#34d399" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="756" y="66" fill="#34d399" font-size="14" font-weight="600">IDC 数据中心  ✓ 受保护</text>
+  <path d="M 188,406 H 360 C 500,406 760,490 940,388" fill="none" stroke="#34d399" stroke-width="1.8" marker-end="url(#arr-green)"/>
+  <path d="M 188,99 L 248,99" fill="none" stroke="#fb7185" stroke-width="2" stroke-dasharray="6,3"/>
+  <path d="M 286,99 L 306,99" fill="none" stroke="#fb7185" stroke-width="2" stroke-dasharray="6,3"/>
+  <path d="M 552,103 Q 610,103 666,103" fill="none" stroke="#34d399" stroke-width="1.8" marker-end="url(#arr-green)"/>
+  <path d="M 720,101 L 754,101" fill="none" stroke="#34d399" stroke-width="1.8" marker-end="url(#arr-green)"/>
+  <path d="M 720,103 Q 737,145 754,172" fill="none" stroke="#34d399" stroke-width="1.6" marker-end="url(#arr-green)"/>
+  <path d="M 720,105 Q 737,207 754,246" fill="none" stroke="#34d399" stroke-width="1.6" marker-end="url(#arr-green)"/>
+  <path d="M 720,107 Q 737,268 754,316" fill="none" stroke="#34d399" stroke-width="1.6" marker-end="url(#arr-green)"/>
+  <rect x="250" y="34" width="36" height="390" rx="6" fill="#0f172a"/>
+  <rect x="250" y="34" width="36" height="390" rx="6" fill="rgba(120,53,15,0.55)" stroke="#f97316" stroke-width="2"/>
+  <text x="268" y="248" fill="#f97316" font-size="13" font-weight="700" text-anchor="middle" transform="rotate(-90,268,248)">防   火   墙</text>
+  <circle cx="268" cy="50" r="4" fill="#f97316" opacity="0.9"/>
+  <circle cx="268" cy="65" r="4" fill="#34d399" opacity="0.9"/>
+  <circle cx="268" cy="80" r="4" fill="#34d399" opacity="0.9"/>
+  <rect x="310" y="34" width="50" height="390" rx="6" fill="#0f172a"/>
+  <rect x="310" y="34" width="50" height="390" rx="6" fill="rgba(8,51,68,0.75)" stroke="#22d3ee" stroke-width="2.5"/>
+  <text x="335" y="248" fill="#22d3ee" font-size="13" font-weight="700" text-anchor="middle" transform="rotate(-90,335,248)">AccessProxy</text>
+  <circle cx="335" cy="50" r="4" fill="#22d3ee" opacity="0.9"/>
+  <circle cx="335" cy="66" r="4" fill="#22d3ee" opacity="0.9"/>
+  <circle cx="335" cy="82" r="4" fill="#22d3ee" opacity="0.9"/>
+  <circle cx="310" cy="99" r="12" fill="rgba(136,19,55,0.9)" stroke="#fb7185" stroke-width="1.5"/>
+  <text x="310" y="104" fill="#fb7185" font-size="13" font-weight="700" text-anchor="middle">&#x2715;</text>
+  <rect x="668" y="34" width="50" height="390" rx="6" fill="#0f172a"/>
+  <rect x="668" y="34" width="50" height="390" rx="6" fill="rgba(8,51,68,0.75)" stroke="#22d3ee" stroke-width="2.5"/>
+  <text x="693" y="248" fill="#22d3ee" font-size="13" font-weight="700" text-anchor="middle" transform="rotate(-90,693,248)">AccessProxy</text>
+  <circle cx="693" cy="50" r="4" fill="#22d3ee" opacity="0.9"/>
+  <circle cx="693" cy="66" r="4" fill="#22d3ee" opacity="0.9"/>
+  <circle cx="693" cy="82" r="4" fill="#22d3ee" opacity="0.9"/>
+  <circle cx="668" cy="99" r="12" fill="rgba(6,78,59,0.9)" stroke="#34d399" stroke-width="1.5"/>
+  <text x="668" y="104" fill="#34d399" font-size="13" font-weight="700" text-anchor="middle">&#x2713;</text>
+  <rect x="24" y="74" width="164" height="52" rx="8" fill="#0f172a"/>
+  <rect x="24" y="74" width="164" height="52" rx="8" fill="rgba(136,19,55,0.55)" stroke="#fb7185" stroke-width="2"/>
+  <text x="106" y="97"  fill="white"  font-size="15" font-weight="700" text-anchor="middle">&#x1F9B9; 黑 客</text>
+  <text x="106" y="116" fill="#fb7185" font-size="11" text-anchor="middle">APT / 社会工程学</text>
+  <rect x="24" y="380" width="164" height="52" rx="8" fill="#0f172a"/>
+  <rect x="24" y="380" width="164" height="52" rx="8" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="2"/>
+  <text x="106" y="403" fill="white"  font-size="14" font-weight="700" text-anchor="middle">&#x1F464; 员 工</text>
+  <text x="106" y="422" fill="#34d399" font-size="11" text-anchor="middle">远程访问</text>
+  <rect x="418" y="76" width="134" height="54" rx="6" fill="#0f172a"/>
+  <rect x="418" y="76" width="134" height="54" rx="6" fill="rgba(8,51,68,0.4)" stroke="#22d3ee" stroke-width="1.5"/>
+  <text x="485" y="100" fill="white"  font-size="13" font-weight="700" text-anchor="middle">&#x1F4BB; 员工A</text>
+  <text x="485" y="119" fill="#94a3b8" font-size="11" text-anchor="middle">正常办公</text>
+  <rect x="418" y="150" width="134" height="54" rx="6" fill="#0f172a"/>
+  <rect x="418" y="150" width="134" height="54" rx="6" fill="rgba(8,51,68,0.4)" stroke="#22d3ee" stroke-width="1.5"/>
+  <text x="485" y="174" fill="white"  font-size="13" font-weight="700" text-anchor="middle">&#x1F4BB; 员工B</text>
+  <text x="485" y="193" fill="#94a3b8" font-size="11" text-anchor="middle">正常办公</text>
+  <rect x="418" y="224" width="134" height="54" rx="6" fill="#0f172a"/>
+  <rect x="418" y="224" width="134" height="54" rx="6" fill="rgba(8,51,68,0.4)" stroke="#22d3ee" stroke-width="1.5"/>
+  <text x="485" y="248" fill="white"  font-size="13" font-weight="700" text-anchor="middle">&#x1F4BB; 员工C</text>
+  <text x="485" y="267" fill="#94a3b8" font-size="11" text-anchor="middle">正常办公</text>
+  <rect x="418" y="298" width="134" height="54" rx="6" fill="#0f172a"/>
+  <rect x="418" y="298" width="134" height="54" rx="6" fill="rgba(8,51,68,0.4)" stroke="#22d3ee" stroke-width="1.5"/>
+  <text x="485" y="322" fill="white"  font-size="13" font-weight="700" text-anchor="middle">&#x1F4BB; 员工D</text>
+  <text x="485" y="341" fill="#94a3b8" font-size="11" text-anchor="middle">正常办公</text>
+  <rect x="630" y="368" width="248" height="38" rx="8" fill="#0f172a"/>
+  <rect x="630" y="368" width="248" height="38" rx="8" fill="rgba(8,51,68,0.35)" stroke="#22d3ee" stroke-width="1.2"/>
+  <text x="754" y="384" fill="#22d3ee" font-size="13" font-weight="700" text-anchor="middle">&#x2713; 永不信任，始终验证</text>
+  <text x="754" y="399" fill="#94a3b8" font-size="12" text-anchor="middle">零信任核心原则</text>
+  <rect x="756" y="74"  width="680" height="54" rx="6" fill="#0f172a"/>
+  <rect x="756" y="74"  width="680" height="54" rx="6" fill="rgba(6,78,59,0.35)" stroke="#34d399" stroke-width="1.5"/>
+  <text x="1096" y="99"  fill="white"  font-size="14" font-weight="700" text-anchor="middle">企业应用服务</text>
+  <text x="1096" y="118" fill="#34d399" font-size="11" text-anchor="middle">OA · ERP · CRM · 内部系统</text>
+  <text x="1428" y="104" fill="#34d399" font-size="16" text-anchor="end">&#x2713;</text>
+  <rect x="756" y="148" width="680" height="54" rx="6" fill="#0f172a"/>
+  <rect x="756" y="148" width="680" height="54" rx="6" fill="rgba(6,78,59,0.35)" stroke="#34d399" stroke-width="1.5"/>
+  <text x="1096" y="173" fill="white"  font-size="14" font-weight="700" text-anchor="middle">核心数据库</text>
+  <text x="1096" y="192" fill="#34d399" font-size="11" text-anchor="middle">用户数据 · 订单 · 财务 · 账号</text>
+  <text x="1428" y="178" fill="#34d399" font-size="16" text-anchor="end">&#x2713;</text>
+  <rect x="756" y="222" width="680" height="54" rx="6" fill="#0f172a"/>
+  <rect x="756" y="222" width="680" height="54" rx="6" fill="rgba(6,78,59,0.35)" stroke="#34d399" stroke-width="1.5"/>
+  <text x="1096" y="247" fill="white"  font-size="14" font-weight="700" text-anchor="middle">敏感数据资产</text>
+  <text x="1096" y="266" fill="#34d399" font-size="11" text-anchor="middle">研发代码 · 商业机密 · 合同文档</text>
+  <text x="1428" y="252" fill="#34d399" font-size="16" text-anchor="end">&#x2713;</text>
+  <rect x="756" y="296" width="680" height="54" rx="6" fill="#0f172a"/>
+  <rect x="756" y="296" width="680" height="54" rx="6" fill="rgba(6,78,59,0.35)" stroke="#34d399" stroke-width="1.5"/>
+  <text x="1096" y="321" fill="white"  font-size="14" font-weight="700" text-anchor="middle">核心基础设施</text>
+  <text x="1096" y="340" fill="#34d399" font-size="11" text-anchor="middle">K8s · AD 域控 · DNS · 内网服务器</text>
+  <text x="1428" y="326" fill="#34d399" font-size="16" text-anchor="end">&#x2713;</text>
+  <text x="219" y="88"  fill="#fb7185" font-size="12" font-weight="600" text-anchor="middle">① 入侵尝试</text>
+  <text x="335" y="126" fill="#fb7185" font-size="11" font-weight="700" text-anchor="middle">&#x2715; 拦截</text>
+  <text x="750" y="30"  fill="#34d399" font-size="12" font-weight="700" text-anchor="middle">② 已认证访问</text>
+  <text x="750" y="45"  fill="#94a3b8" font-size="11" text-anchor="middle">最小权限</text>
+  <line x1="738" y1="80" x2="738" y2="360" stroke="#1e293b" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="22" y="505" fill="white" font-size="11" font-weight="600">Legend：</text>
+  <path d="M 76,501 L 108,501" fill="none" stroke="#fb7185" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr-red)"/>
+  <text x="116" y="505" fill="#94a3b8" font-size="10">攻击流量（被拦截）</text>
+  <path d="M 280,501 L 312,501" fill="none" stroke="#34d399" stroke-width="1.5" marker-end="url(#arr-green)"/>
+  <text x="320" y="505" fill="#94a3b8" font-size="10">已认证流量（放行）</text>
+  <text x="490" y="505" fill="#22d3ee" font-size="10">&#x258A; AccessProxy</text>
+  <text x="598" y="505" fill="#f97316" font-size="10">&#x258A; 防火墙</text>
+  <text x="666" y="505" fill="#34d399" font-size="10">&#x2713; 受保护资产</text>
+  <text x="774" y="505" fill="#fbbf24" font-size="10">- 内网边界</text>
+</svg>
