@@ -4,7 +4,7 @@
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 # some information about your slides (markdown enabled)
-title: 个人履历
+title: 个人职业汇报
 colorSchema: dark
 paginate: true
 info: |
@@ -64,7 +64,7 @@ hideInToc: true
 
 1. 基本信息
 
-2. 工作简历
+2. 工作经历
 
 3. 重点项目
 
@@ -343,13 +343,9 @@ layout: section
 <br>
 
 ---
-layout: center
----
 
 ## 规划：建设研究院纵深防护体系                                                                                                                                                                                                                              
-<br>
-
-<div class="flex justify-center items-center h-full">
+<div class="flex justify-center items-center">
   <img src="/did_layers.webp" class="w-[80vw] max-h-[80vh] object-contain" />
 </div>
 
@@ -361,12 +357,12 @@ layout: center
 
 - **网络安全**：网络区域划分隔离 / 流量收口 / 零信任 / WAF / Anti-DDoS 流量清洗
 
-- **主机安全**：主机入侵检测系统 HIDS / K8S 容器安全 CWPP
-
 - **办公内网安全**：设备准入 / BYOD 设备管理 / 反病毒 / 员工安全培训
 ```
 BYOD: Bring-Your-Own-Devices，指个人设备用于企业办公的场景
 ```
+
+- **主机安全**：主机入侵检测系统 HIDS / K8S 容器安全 CWPP
 
 - **态势感知与应急响应**：安全信息事件管理SIEM / 安全运营中心SOC
 
